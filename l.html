@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nova | Modern Website</title>
+
+    <link rel="stylesheet" href="l.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+
+        <div class="logo">
+            NOVA
+        </div>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+            <button id="b1">🌙dark Mode</button>
+        </div>
+
+        <button class="menu-btn" onclick="openMenu()">
+            ☰
+        </button>
+
+    </nav>
+
+
+    <!-- MOBILE MENU -->
+
+    <div class="mobile-menu" id="mobileMenu">
+
+        <button class="close-btn" onclick="closeMenu()" style="color: rgb(46, 34, 34);">
+            ×
+        </button>
+
+        <a href="#home" onclick="closeMenu()">Home</a>
+        <a href="#about" onclick="closeMenu()">About</a>
+        <a href="#services" onclick="closeMenu()">Services</a>
+        <a href="#gallery" onclick="closeMenu()">Gallery</a>
+        <a href="#contact" onclick="closeMenu()">Contact</a>
+        <button id="b2">🌙dark Mode</button>
+
+    </div>
+
+
+    <!-- HERO -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+
+            <p class="small-title">
+                WELCOME TO NOVA
+            </p>
+
+            <h1>
+                Create.
+                <span>Explore.</span>
+                Inspire.
+            </h1>
+
+            <p class="hero-description">
+                A modern digital experience designed with simplicity,
+                creativity and style.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#services" class="main-btn">
+                    Explore
+                </a>
+
+                <a href="#about" class="second-btn">
+                    Learn More
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1000&q=80"
+                alt="Mountain">
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section class="about" id="about">
+
+        <div class="about-image">
+
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80"
+                alt="Nature">
+
+        </div>
+
+        <div class="about-text">
+
+            <p class="section-small">
+                ABOUT US
+            </p>
+
+            <h2>
+                Designed for people
+                who love <span>beautiful things.</span>
+            </h2>
+
+            <p>
+                Nova is a simple modern concept built around creativity,
+                clean design and memorable experiences.
+            </p>
+
+            <p>
+                Our goal is to create websites that look premium,
+                feel smooth and work perfectly on every screen.
+            </p>
+
+            <button class="dark-btn">
+                Discover More
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- SERVICES -->
+
+    <section class="services" id="services">
+
+        <div class="section-heading">
+
+            <p class="section-small">
+                WHAT WE DO
+            </p>
+
+            <h2>
+                Our Services
+            </h2>
+
+            <p>
+                Everything you need for a modern digital experience.
+            </p>
+
+        </div>
+
+
+        <div class="service-container">
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    ✦
+                </div>
+
+                <h3>
+                    Web Design
+                </h3>
+
+                <p>
+                    Clean, modern and responsive website designs
+                    for your brand.
+                </p>
+
+                <a href="#">
+                    Learn more →
+                </a>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    ◈
+                </div>
+
+                <h3>
+                    Development
+                </h3>
+
+                <p>
+                    Fast and responsive websites built using
+                    modern technologies.
+                </p>
+
+                <a href="#">
+                    Learn more →
+                </a>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    ◎
+                </div>
+
+                <h3>
+                    Creative Ideas
+                </h3>
+
+                <p>
+                    Unique ideas that help your website stand
+                    out from the crowd.
+                </p>
+
+                <a href="#">
+                    Learn more →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- GALLERY -->
+
+    <section class="gallery" id="gallery">
+
+        <div class="section-heading">
+
+            <p class="section-small">
+                OUR WORLD
+            </p>
+
+            <h2>
+                Explore Gallery
+            </h2>
+
+        </div>
+
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item big">
+
+                <img
+                    src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80">
+
+                <div class="image-text">
+                    <h3>Mountain Life</h3>
+                    <p>Explore the unknown</p>
+                </div>
+
+            </div>
+
+
+            <div class="gallery-item">
+
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80">
+
+                <div class="image-text">
+                    <h3>Ocean</h3>
+                    <p>Feel the freedom</p>
+                </div>
+
+            </div>
+
+
+            <div class="gallery-item">
+
+                <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=80">
+
+                <div class="image-text">
+                    <h3>Nature</h3>
+                    <p>Find your peace</p>
+                </div>
+
+            </div>
+
+
+            <div class="gallery-item">
+
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80">
+
+                <div class="image-text">
+                    <h3>Adventure</h3>
+                    <p>Go beyond</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CTA -->
+
+    <section class="cta">
+
+        <div>
+
+            <p class="section-small">
+                READY?
+            </p>
+
+            <h2>
+                Let's create something
+                <span>amazing.</span>
+            </h2>
+
+            <a href="#contact" class="main-btn">
+                Get Started
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section class="contact" id="contact">
+
+        <div class="contact-heading">
+
+            <p class="section-small">
+                CONTACT
+            </p>
+
+            <h2>
+                Let's talk.
+            </h2>
+
+            <p>
+                Have an idea? Send us a message.
+            </p>
+
+        </div>
+
+
+        <form class="contact-form">
+
+            <input type="text" placeholder="Your Name">
+
+            <input type="email" placeholder="Your Email">
+
+            <textarea placeholder="Your Message"></textarea>
+
+            <button type="submit" class="dark-btn">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-logo">
+            NOVA
+        </div>
+
+        <p>
+            © 2026 Nova. All rights reserved.
+        </p>
+
+        <div class="social">
+
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">YouTube</a>
+
+        </div>
+        <script>
+            let x = document.getElementById("b1")
+            x.addEventListener("click", function () {
+                document.body.classList.toggle("dark");
+                if (x.innerText === "🌙dark Mode") {
+                    x.innerText = "☀️ Light Mode"
+                } else {
+                    x.innerText = "🌙dark Mode"
+                }
+
+            })
+            let y = document.getElementById("b2")
+            y.addEventListener("click", function () {
+                document.body.classList.toggle("dark");
+
+            })
+            y.addEventListener("onclick", function () {
+
+                if (y.innerText === "🌙dark Mode") {
+                    y.innerText = "☀️ Light Mode"
+                } else {
+                    y.innerText = "🌙dark Mode"
+                }
+
+
+
+            })
+
+
+            function openMenu() {
+                document.getElementById("mobileMenu").classList.add("active");
+            }
+
+            function closeMenu() {
+                document.getElementById("mobileMenu").classList.remove("active");
+            }
+        </script>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
